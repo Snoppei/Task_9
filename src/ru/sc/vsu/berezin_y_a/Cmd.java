@@ -6,6 +6,7 @@ import java.util.*;
 public class Cmd {
 
     public void runCmd() throws IOException {
+
         Logic logic = new Logic();
         CmdCommands cmdCommand = CmdCommands.STATIC;
         Scanner scn = new Scanner(System.in);
@@ -74,6 +75,7 @@ public class Cmd {
             }
 
         }
+
     }
 
 }
