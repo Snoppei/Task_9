@@ -25,17 +25,15 @@ public class Cmd {
         while (cmdCommand != CmdCommands.EXIT) {
             List list = new LinkedList();
             command = scn.next();
-            if (Objects.equals(command, "-run")) {
+            if (Objects.equals(command, "-r")) {
                 cmdCommand = CmdCommands.RUN;
-            } else if (Objects.equals(command, "-help")) {
+            } else if (Objects.equals(command, "-h")) {
                 cmdCommand = CmdCommands.HELP;
-            } else if (Objects.equals(command, "-exit")) {
+            } else if (Objects.equals(command, "-e")) {
                 cmdCommand = CmdCommands.EXIT;
-            } else if (Objects.equals(command, "-read")) {
-                cmdCommand = CmdCommands.READ_FROM_CONSOLE;
-            } else if (Objects.equals(command, "-input")) {
+            } else if (Objects.equals(command, "-i")) {
                 cmdCommand = CmdCommands.ENTER_INPUT_FILE;
-            } else if (Objects.equals(command, "-output")) {
+            } else if (Objects.equals(command, "-o")) {
                 cmdCommand = CmdCommands.ENTER_OUTPUT_FILE;
             } else {
                 System.out.println("Error, this command is not found. Try again: ");
