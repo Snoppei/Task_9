@@ -64,11 +64,11 @@ public class Cmd {
                 }
                 case HELP -> {
                     System.out.println("Commands:");
-                    System.out.println("-run     - run program from console");
-                    System.out.println("-help    - show help page");
-                    System.out.println("-exit    - exit from program");
-                    System.out.println("-input   - enter input file and run program");
-                    System.out.println("-output  - enter output file");
+                    System.out.println("-r   - run program from console");
+                    System.out.println("-h   - show help page");
+                    System.out.println("-e   - exit from program");
+                    System.out.println("-i   - enter input file and run program");
+                    System.out.println("-o   - enter output file");
                 }
             }
 
